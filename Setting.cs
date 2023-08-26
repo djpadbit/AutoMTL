@@ -18,7 +18,7 @@ namespace VPet.Plugin.AutoMTL
 		/// The time between translation requests in ms
 		/// </summary>
 		[Line]
-		public long waitMs { get; set; } = 20;
+		public long waitMs { get; set; } = 2;
 		/// <summary>
 		/// Translation provider Id
 		/// </summary>
