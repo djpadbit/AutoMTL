@@ -97,6 +97,8 @@ namespace VPet.Plugin.AutoMTL
 			}
 			if (!settings.enabled)
 				return null;
+			if (translator == null) // In case we can't load it somehow, don't crash the app
+				return null;
 			return translator.Translate(input);
 		}
 
